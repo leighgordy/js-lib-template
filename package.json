@@ -1,7 +1,7 @@
 {
   "name": "js-lib-template",
   "version": "0.0.1",
-  "description": "A simple js library template",
+  "description": "A simple js library for use as a template",
   "homepage": "https://github.com/leighgordy/js-lib-template#readme",
   "bugs": {
     "url": "https://github.com/leighgordy/js-lib-template/issues"
