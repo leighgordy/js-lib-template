@@ -1,2 +1,2 @@
 # js-lib-template
-Basic template for all libs created by me
+Basic template for all JS libs created by me.

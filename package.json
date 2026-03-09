@@ -1,0 +1,20 @@
+{
+  "name": "js-lib-template",
+  "version": "0.0.1",
+  "description": "A simple js library template",
+  "homepage": "https://github.com/leighgordy/js-lib-template#readme",
+  "bugs": {
+    "url": "https://github.com/leighgordy/js-lib-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leighgordy/js-lib-template.git"
+  },
+  "license": "MIT",
+  "author": "Leigh G",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
