@@ -17,11 +17,14 @@
   "types": "dist/index.d.ts",
   "private": true,
   "scripts": {
+    "clean": "npx prettier . --write",
+    "prebuild": "npx prettier . --check",
     "build": "npx tsc",
     "test": "node --test \"**/*.spec.ts\""
   },
   "devDependencies": {
     "@types/node": "^25.3.5",
+    "prettier": "3.8.1",
     "typescript": "^5.9.3"
   }
 }
