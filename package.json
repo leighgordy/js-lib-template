@@ -17,6 +17,10 @@
   "types": "src/index.ts",
   "private": true,
   "scripts": {
-    "build": "node src/index.ts"
+    "build": "node src/index.ts",
+    "test": "node --test \"**/*.spec.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5"
   }
 }
