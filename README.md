@@ -5,8 +5,9 @@ Also used node:test for testing. So both tests and src code are using TS out of 
 
 # instructions 
 
-| code           | description                                                               |
-|----------------|---------------------------------------------------------------------------|
-| `npm install`  | install dependencies                                                      |
-| `nvm use`      | Use node version specified in projects .nvmrc file. (NVM needs installing)|
-| `nvm run test` | run node:test library                                                     |
+| code            | description                                                               |
+|-----------------|---------------------------------------------------------------------------|
+| `npm install`   | install dependencies                                                      |
+| `nvm use`       | Use node version specified in projects .nvmrc file. (NVM needs installing)|
+| `nvm run test`  | run node:test library                                                     |
+| `nvm run build` | Build ES module using typescript compiler                                 |
