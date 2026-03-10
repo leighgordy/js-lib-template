@@ -13,6 +13,6 @@ Used node:test for testing, so both tests and src code are using native nodes TS
 | `npm install`      | install dependencies                                                       |
 | `nvm use`          | Use node version specified in projects .nvmrc file. (NVM needs installing) |
 | `nvm run test`     | run node:test library                                                      |
-| `nvm run clean`    | CLean project using prettier                                               |
+| `nvm run clean`    | clean project using prettier                                               |
 | `nvm run validate` | validate code using typescript compiler. Does not generate files           |
-| `nvm run build`    | Build ES module using typescript compiler                                  |
+| `nvm run build`    | build ES module using typescript compiler                                  |
