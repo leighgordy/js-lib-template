@@ -4,6 +4,8 @@ Node in 2025 implemented support for TS, no need for transpilers until release. 
 
 Used node:test for testing, so both tests and src code are using native nodes TS support. Very fast!
 
+**This code is still early doors, I will test it as I use it in other libraries, but right now beware.**
+
 # instructions
 
 | code               | description                                                                |
