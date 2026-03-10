@@ -18,8 +18,9 @@
   "private": true,
   "scripts": {
     "clean": "npx prettier . --write",
-    "prebuild": "npx prettier . --check",
-    "build": "npx tsc",
+    "validate": "tsc --noEmit",
+    "prebuild": "npx prettier . --check && tsc --noEmit",
+    "build": "tsc",
     "test": "node --test \"**/*.spec.ts\""
   },
   "devDependencies": {
